@@ -1,0 +1,3 @@
+#!/bin/bash
+cd $(dirname $0)
+YARN_SILENT=1 yarn start-web-server "$@"
